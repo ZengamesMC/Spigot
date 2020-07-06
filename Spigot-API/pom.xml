@@ -44,7 +44,7 @@
         </pluginRepository>
         <pluginRepository>
             <id>spigotmc-public2</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/public/</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </pluginRepository>
     </pluginRepositories>
 
