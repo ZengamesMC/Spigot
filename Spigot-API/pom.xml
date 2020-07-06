@@ -9,7 +9,6 @@
         <version>dev-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-
     <groupId>org.spigotmc</groupId>
     <artifactId>spigot-api</artifactId>
     <version>1.8.8-R0.1-SNAPSHOT</version>
@@ -42,6 +41,10 @@
         <pluginRepository>
             <id>spigotmc-public</id>
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spigotmc-public2</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/public/</url>
         </pluginRepository>
     </pluginRepositories>
 
@@ -171,3 +174,4 @@
         </plugins>
     </build>
 </project>
+
