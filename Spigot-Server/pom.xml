@@ -43,7 +43,7 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>local</groupId>
+            <groupId>Localdependency</groupId>
             <artifactId>minecraft-server</artifactId>
             <version>${minecraft.version}-SNAPSHOT</version>
             <systemPath>${project.basedir}/spigot-1.8.8.jar</systemPath>
