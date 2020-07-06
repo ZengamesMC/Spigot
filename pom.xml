@@ -11,14 +11,7 @@
     <name>Spigot-Parent</name>
     <description>Parent project for all Spigot modules.</description>
     <url>https://hub.spigotmc.org/stash/projects/SPIGOT/repos/spigot</url>
-         
-         <repositories>
-                  <repository>
-                           <id>Localdependency</id>
-                           <url>file://${basedir}/</url>
-                  </repository>
-         </repositories>
-         
+                  
     <modules>
         <module>Spigot-Server</module>
         <module>Spigot-API</module>
