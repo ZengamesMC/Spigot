@@ -48,6 +48,7 @@
             <version>${minecraft.version}-SNAPSHOT</version>
             <type>jar</type>
             <scope>compile</scope>
+	    <systemPath>${project.basedir}/Localdependency/org/spigotmc/spigot-1.8.8-R0.1-SNAPSHOT.jar</systemPath>
         </dependency>
 
         <dependency>
