@@ -53,7 +53,7 @@
           <version>${minecraft.version}-SNAPSHOT</version>
           <type>jar</type>
           <scope>system</scope>
-	 <systemPath>${project.basedir}/minecraft-server/1.8.8/spigot-1.8.8.jar</systemPath>
+	 <systemPath>${project.basedir}/Localdependency/minecraft-server/1.8.8/spigot-1.8.8.jar</systemPath>
 	 <optional>true</optional>
         </dependency>
         <dependency>
