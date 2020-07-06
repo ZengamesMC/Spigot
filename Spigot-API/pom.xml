@@ -4,11 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>9</version>
+        <groupId>org.spigotmc</groupId>
+        <artifactId>spigot-parent</artifactId>
+        <version>dev-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
-         
+       
     <groupId>org.spigotmc</groupId>
     <artifactId>spigot-api</artifactId>
     <version>1.8.8-R0.1-SNAPSHOT</version>
