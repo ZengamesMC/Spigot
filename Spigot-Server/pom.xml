@@ -51,12 +51,6 @@
         </dependency>
 
         <dependency>
-            <artifactId>spigot-api</artifactId>
-            <version>${project.version}</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>net.sf.jopt-simple</groupId>
             <artifactId>jopt-simple</artifactId>
             <version>3.2</version>
