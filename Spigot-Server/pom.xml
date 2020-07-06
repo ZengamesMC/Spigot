@@ -43,11 +43,9 @@
         <dependency>
           <groupId>Localdependency</groupId>
           <artifactId>minecraft-server</artifactId>
-          <version>${minecraft.version}-SNAPSHOT</version>
+          <version>1.8.8</version>
           <type>jar</type>
-          <scope>system</scope>
-	 <systemPath>${project.basedir}/Localdependency/minecraft-server/1.8.8/spigot-1.8.8.jar</systemPath>
-	 <optional>true</optional>
+          <scope>system</scope>>
         </dependency>
         <dependency>
             <artifactId>spigot-api</artifactId>

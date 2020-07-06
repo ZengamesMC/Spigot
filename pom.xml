@@ -15,8 +15,8 @@
   <repositories>
     <repository>
     	<id>Localdependency</id>
-	    <url>file://${basedir}/Localdependency</url>
-	</repository>
+	<url>file://${project.basedir}/Localdependency</url>
+    </repository>
   </repositories>
                   
     <modules>
