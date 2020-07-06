@@ -46,8 +46,8 @@
             <groupId>local</groupId>
             <artifactId>minecraft-server</artifactId>
             <version>${minecraft.version}-SNAPSHOT</version>
+            <systemPath>${project.basedir}/spigot-1.8.8.jar</systemPath>
             <type>jar</type>
-            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>net.sf.jopt-simple</groupId>
