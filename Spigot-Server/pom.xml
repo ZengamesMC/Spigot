@@ -45,7 +45,7 @@
           <artifactId>minecraft-server</artifactId>
           <version>1.8.8</version>
           <type>jar</type>
-          <scope>system</scope>>
+          <scope>system</scope>
         </dependency>
         <dependency>
             <artifactId>spigot-api</artifactId>
