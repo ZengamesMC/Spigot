@@ -43,12 +43,12 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-          <groupId>org.spigotmc</groupId>
+          <groupId>Local</groupId>
           <artifactId>minecraft-server</artifactId>
           <version>${minecraft.version}-SNAPSHOT</version>
           <type>jar</type>
           <scope>system</scope>
-	 <systemPath>${project.basedir}/../spigot-1.8.8.jar</systemPath>
+	 <systemPath>${project.basedir}/spigot-1.8.8.jar</systemPath>
 	 <optional>true</optional>
         </dependency>
         <dependency>
