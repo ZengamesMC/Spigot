@@ -27,6 +27,30 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
+    <!-- just until we get deployment to central approved -->
+    <distributionManagement>
+        <repository>
+            <id>spigotmc-releases</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>spigotmc-snapshots</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <!-- required until fixed plexus-compiler-eclipse is deployed -->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>spigotmc-public</id>
+            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>spigotmc-public2</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </pluginRepository>
+    </pluginRepositories>
+         
     <dependencies>
         <dependency>
             <groupId>net.sf.trove4j</groupId>
