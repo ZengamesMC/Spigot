@@ -26,6 +26,8 @@
         <version>dev-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
+    
+
          
     <dependencies>
         <dependency>
@@ -41,7 +43,7 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.spigotmc</groupId>
+            <groupId>local</groupId>
             <artifactId>minecraft-server</artifactId>
             <version>${minecraft.version}-SNAPSHOT</version>
             <type>jar</type>
