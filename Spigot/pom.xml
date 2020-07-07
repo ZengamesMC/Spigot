@@ -20,8 +20,8 @@
   </repositories>
                   
     <modules>
-        <module>Spigot-Server</module>
         <module>Spigot-API</module>
+	<module>Spigot-Server</module>
     </modules>
 
     <properties>
